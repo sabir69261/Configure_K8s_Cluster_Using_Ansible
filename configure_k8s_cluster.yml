@@ -1,0 +1,14 @@
+- hosts: masternode
+  roles:
+       - role: "/root/roles/master"
+
+
+- hosts: slavenode
+  vars_prompt:
+          - name: master_token
+            prompt: Please Enter the master token no
+            private: no
+  roles:
+       - role: "/root/roles/slave"
+
+        

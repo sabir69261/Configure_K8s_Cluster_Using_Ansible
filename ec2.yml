@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  pre_tasks:
+       - name: include vault variable
+         include_vars: keys.yml
+  roles:
+      - role: "/root/roles/ec2"
+ 
