@@ -14,5 +14,5 @@ Amazon web service is a platform that offers flexible, reliable, scalable, easy-
 
 ## Let's discuss about the project
 Here we have created one ec2 role which will configure the ec2 instance on the top of AWS cloud 
-![Image of ec2](https://cdn-images-1.medium.com/max/800/1*6jiQWBFav4BW3p3A6KRe-A.png)
+            ![Image of ec2](https://cdn-images-1.medium.com/max/800/1*6jiQWBFav4BW3p3A6KRe-A.png)
 
